@@ -14,13 +14,13 @@ def fetch_po_value_l2(name,user_l2):
 @frappe.whitelist()
 def fetch_po_value_less(name,user_approve_less):
 	print("data",name,user_approve_less)
-	print("name",name)
+	print("name of user",name)
 	frappe.client.set_value("Purchase Order",name,"approved_by",user_approve_less)
 	
 @frappe.whitelist()
 def fetch_po_value_btn(name,user_approve_btn):
 	print("data",name,user_approve_btn)
-	print("name",name)
+	print("name of user",name)
 	frappe.client.set_value("Purchase Order",name,"approved_by",user_approve_btn)
 
 @frappe.whitelist()
