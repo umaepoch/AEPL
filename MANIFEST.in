@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aepl *.css
+recursive-include aepl *.csv
+recursive-include aepl *.html
+recursive-include aepl *.ico
+recursive-include aepl *.js
+recursive-include aepl *.json
+recursive-include aepl *.md
+recursive-include aepl *.png
+recursive-include aepl *.py
+recursive-include aepl *.svg
+recursive-include aepl *.txt
+recursive-exclude aepl *.pyc
